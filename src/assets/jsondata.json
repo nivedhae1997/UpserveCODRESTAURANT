@@ -1,0 +1,140 @@
+{
+  "jsondata":
+  [
+    {
+      "id":1,
+      "hotelName":"Hakuna Matata",
+      "areaName":"JP Nagar",
+      "address":"1231/35/2, 24th Main,Opposite Brigade Palm Springs, Brigade Millenium Rd, JP Nagar 7th Phase, Bengaluru, Karnataka 560076",
+      "phoneNumber":"097 4113 3866",
+      "image":"hakuna matata.jpg"
+      
+    },
+    {
+      "id":2,
+      "hotelName":"Zaitoon Restaurent",
+      "areaName":"JP Nagar",
+      "address":"21, 24th Main Rd, KR Layout, J P Nagar Phase 5, J. P. Nagar, Bengaluru, Karnataka 560078",
+      "phoneNumber":" 080 4148 8988",
+      "image":"zaitoon.jpg"
+      
+    },
+    {
+      "id":3,
+      "hotelName":"Mango Tree",
+      "areaName":"JP Nagar",
+      "address":"99/4, Balan Farm, next to Balan Farm, Nataraja Layout, JP Nagar 7th Phase, ConventionCenter, Bengaluru, Karnataka 560078",
+      "phoneNumber":"080 2685 1030",
+      "image":"mango tree.jpg"
+    },
+    {
+      "id":4,
+      "hotelName":"Fenny's Lounge & Kitchen",
+      "areaName":"JP Nagar",
+      "address":"115, 3rd Floor, Opposite Raheja Arcade, 7th Block, Koramangala, Bengaluru, Karnataka 560095",
+      "phoneNumber":"090 3608 2911",
+      "image":"fennys.jpg"
+    },
+    {
+      "id":5,
+      "hotelName":"The Crown Multicuisine Restaurant",
+      "areaName":"JP Nagar",
+      "address":"Chunchgatta, Phase 7, J. P. Nagar, Bengaluru, Karnataka 560078",
+      "phoneNumber":"091 0888 3691",
+      "image":"crown.jpg"
+
+    },
+    {
+      "id":6,
+      "hotelName":"The Globe Grub",
+      "areaName":"BTM Layout",
+      "address":" C K Emerald, Opposite Yes Bank, BTM Layout, Near Shoppers Stop, Bannerghata Main Road, BTM, Bangalore",
+      "phoneNumber":"080 4965 3194",
+      "image":"globe grub.jpg"
+      
+    },
+    {
+      "id":7,
+      "hotelName":"Empire Restaurant",
+      "areaName":"BTM Layout",
+      "address":"100 Feet Ring Road, 1st Phase, BTM, Bangalore",
+      "phoneNumber":"080 4041 4141",
+      "image":"empire.jpg"
+      
+    },
+    {
+      "id":8,
+      "hotelName":"Fattoush Multi Cuisine Restaurant",
+      "areaName":"BTM Layout",
+      "address":"5, Outer Ring Road, BTM 2nd Stage, Kuvempu Nagar, Stage 2, BTM 2nd Stage, Bengaluru, Karnataka 560076",
+      "phoneNumber":"080 4979 5551",
+      "image":"fattoush.jpg"
+  
+    },
+    {
+      "id":9,
+      "hotelName":"Trippy Paradise Cafe",
+      "areaName":"BTM Layout",
+      "address":"Sai Plaza, 7th Cross Rd, Above Pizza Hut, Stage 2, BTM 2nd Stage, Bengaluru, Karnataka 560076",
+      "phoneNumber":" 098 8652 5634",
+      "image":"trippy.jpg"
+      
+    },
+    {
+      "id":10,
+      "hotelName":"Gorbandh ( The Royal Taste of Rajasthan )",
+      "areaName":"BTM Layout",
+      "address":"Shop no, Mahadeshwara Bus Stop, 752, 16th Main Rd, Lakshmi Layout, EWS Colony, Stage 2, BTM Layout, Bengaluru, Karnataka 560076",
+      "phoneNumber":"098 8001 1054",
+      "image":"gorbandh.jpg"
+      
+    },
+    {
+      "id":11,
+      "hotelName":"Boho",
+      "areaName":"Koramangala",
+      "address":"105, 1st A Cross, Koramangala 5th Block, Bangalore",
+      "phoneNumber":"080 4748 3451",
+      "image":"boho.jpg"
+      
+    },
+    {
+      "id":12,
+      "hotelName":"The Black Pearl",
+      "areaName":"Koramangala",
+      "address":"105, 1st A Cross Road, Jyothi Nivas College Road, Koramangala 5th Block, Bangalore",
+      "phoneNumber":"080 4965 2452",
+      "image":"black pearl.jpg"
+      
+    },
+    {
+      "id":13,
+      "hotelName":"Kappa Chakka Kandhari",
+      "areaName":"Koramangala",
+      "address":"438, 18th Main Road, Koramangala 6th Block, Bangalore",
+      "phoneNumber":"+91 6364671010",
+      "image":"kappa.jpg"
+      
+    },
+    {
+      "id":14,
+      "hotelName":"Sultans of Spice",
+      "areaName":"Koramangala",
+      "address":"BluPetal Hotel, 60 Jyoti Nivas College Road, Koramangala 5th Block, Bangalore",
+      "phoneNumber":"080 4748 3294",
+      "image":"sultan.jpg"
+      
+    },
+    {
+      "id":15,
+      "hotelName":"Meghana Foods",
+      "areaName":"Koramangala",
+      "address":"124, KHB Colony, 1st Cross, Near Jyothi Nivas College, Koramangala 5th Block, Bangalore",
+      "phoneNumber":"080 2553 4040",
+      "image":"meghana.jpg"
+      
+    }
+
+
+  ]
+}

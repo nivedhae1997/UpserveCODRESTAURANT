@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br><br><br>
+  <div style="margin-left: 37%;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <h1>
+      {{title}}
+    </h1>
+  </div>
+  <br>
+  <div class="row">
+  <form class="form-inline"style="margin-left: 36%;" >
+    <div class="form-group mb-2">
+      <div class="form-group mx-sm-3 mb-2">
+        <div style="text-align: center">
+          <div class="fake-input">
+            <input class="form-control" type="text" name="search" size="50" [(ngModel)]="searchText" autocomplete="off"  placeholder="&#61442;     Enter the destination place or name">
+            </div> 
+        </div>
+      </div>
+    </div>
+    <button type="submit" (click)="onSearch()" style="margin-left: 23%; height: 46px; width: 8%;" class="btn btn-primary mb-2 ">Search</button>
+    <br>
+
+<br><br><br>
+
+      <mat-card *ngFor="let item of searchedData" style="margin: 10px;right: 210px; background: none; padding: 0%;margin: 3%;    margin-bottom: 7%;">
+      <mat-grid-list cols = "4" rowHeight = "150px" style="color: black;">
+        <mat-grid-tile  
+        [colspan] = "1"
+        [rowspan] = "1"> 
+          <img style="width: 100%; height: 100%; border-radius: 5px;" src="assets/images/{{item.image}}">
+        </mat-grid-tile>
+        <mat-grid-tile 
+        [colspan] = "3"
+        [rowspan] = "1"> 
+        <div class="div-height">
+          <div class="font-20 font-bold">
+            {{item.hotelName}}
+          </div>
+          <div class="font-14 font-bold" style="padding-top: 10px;">
+            {{item.areaName}}
+          </div>
+          <div class="font-12 font-italic">
+            {{item.address}}
+          </div>
+          <div class="font-14" style="padding-top: 10px;">
+            Phone : <strong class="font-12"> {{item.phoneNumber}} </strong>
+          </div>
+        </div>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-card>
+
+  <!-- <mat-card *ngFor="let item of searchedData" style="margin: 80px; right: 210px;padding: 0%;">
+    <mat-grid-list cols = "3" rowHeight = "100px" style="color: black">
+      <mat-grid-tile style="background: white;">
+       {{item.hotelName}}
+      </mat-grid-tile>
+      <mat-grid-tile style="background: white;">
+      {{item.address}}
+      </mat-grid-tile>
+      <mat-grid-tile style="background: white;">
+        <img src="assets/images/{{item.image}}">
+        </mat-grid-tile>
+    </mat-grid-list>
+  </mat-card> -->
+
+  <!-- <div>
+    <mat-card *ngFor="let tile of searchData" style="background: white; margin-left: 19%;">
+      <mat-grid-list cols="4" rowHeight="3:2">
+        <mat-grid-tile style="background: lightblue;">
+          {{item.hotelName}}
+        </mat-grid-tile>
+        <mat-grid-tile style="background: lightgreen;"> 
+          {{item.address}}
+        </mat-grid-tile>
+        <mat-grid-tile style="background: lightpink;">
+          <img src="assets/images/{{tile.image}}">
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-card>
+  </div> -->
+
+
+  <router-outlet></router-outlet>

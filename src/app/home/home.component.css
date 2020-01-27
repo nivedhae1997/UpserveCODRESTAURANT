@@ -1,0 +1,52 @@
+.fake-input { position: relative; width:300px;}
+.fake-input input { border:none; background-color:#fff; display:block; width: 170%; height: 50px; box-sizing: border-box }
+.fake-input img { position: absolute; top: 2px; right: 5px }
+
+.form-control {
+    box-shadow: 0 10px 40px 0 #B0C1D9;
+  }
+  .form-control::placeholder  {
+    font-family: FontAwesome;
+  }
+.form-control{
+  width: 400px;
+  margin: 0 auto;
+}
+.div-height {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+/* .font-16 {
+  font-size: 16px;
+} */
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+/* .font-22 {
+  font-size: 22px;
+} */
+
+.font-bold {
+  font-weight: bold;
+}
+
+/* .font-italic {
+  font-style: italic;
+}
+   */
